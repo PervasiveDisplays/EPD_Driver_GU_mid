@@ -54,7 +54,7 @@
 For further wiring guidance, check out the User Manuals of [EXT2](https://www.pervasivedisplays.com/wp-content/uploads/2019/06/EPD-Extension-Kit-Gen2-EXT2_User-Guide_Rev08_20191111.pdf) and [EXT3](https://www.pervasivedisplays.com/wp-content/uploads/2021/01/User-Manual-of-EXT3_Rev01_Jan-2021-1.pdf).
 
 # EPD_Driver Demo
- *  The sample code implements a global update functionality for a [2.71" Spectra R2.0 EPD (CE2271JS094)](https://www.pervasivedisplays.com/product/2-71-e-ink-display-spectra-r2-0/).  
+ *  The sample code implements a global update functionality for a [5.81" Aurora Mb (V231) EPD (E2581CS0B1)](https://www.pervasivedisplays.com/product/5-8-e-ink-display-aurora-mb-v231/).  
  
  First, a BW(black and white) image is flashed.  
  <p align="center"><img src="https://github.com/PervasiveDisplays/EPD_Driver_GU_mid/blob/main/examples/Demo_581/globalupdate_src/images/5.81/581_720x256_BW.bmp"></p>
@@ -65,18 +65,18 @@ For further wiring guidance, check out the User Manuals of [EXT2](https://www.pe
 ``` c++
 //------------------------------------------------------------
 // DEMO Image Set <Comment out when in User Mode>
-// Screen Size: 154, 213, 266, 271, 287, 370, 420, 437, 581, 741
-#define SCREEN 271
+// Screen Size: 581, 741
+#define SCREEN 581
 #include "globalupdate_src/demoImageData.h"
 // User Mode Image Set
 //#include "globalupdate_src/userImageData.h"
 ```
  *  Then select the appropriate EPD size, development board and extension kit:
 ```
-  // EPD_Driver epdtest(eScreen_EPD_271, boardLaunchPad_EXT3);
-  // EPD_Driver epdtest(eScreen_EPD_271, boardArduinoM0Pro_EXT2);
-  EPD_Driver epdtest(eScreen_EPD_271, boardRaspberryPiPico_RP2040_EXT3);
-  // EPD_Driver epdtest(eScreen_EPD_271, boardRaspberryPiPico_RP2040_EXT2);
+  // EPD_Driver epdtest(eScreen_EPD_581, boardLaunchPad_EXT3);
+  // EPD_Driver epdtest(eScreen_EPD_581, boardArduinoM0Pro_EXT2);
+  EPD_Driver epdtest(eScreen_EPD_581, boardRaspberryPiPico_RP2040_EXT3);
+  // EPD_Driver epdtest(eScreen_EPD_581, boardRaspberryPiPico_RP2040_EXT2);
 ```
 
 #  Tech Support

@@ -92,5 +92,3 @@ For further wiring guidance, check out the User Manuals of [EXT2](https://www.pe
 **Copyright** &copy; Pervasive Displays, 2010-2023
 
 **Licence** [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](./LICENCE.md)
-
-EDIT: Retest commit signoff
